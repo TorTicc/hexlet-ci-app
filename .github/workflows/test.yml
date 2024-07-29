@@ -8,9 +8,7 @@ jobs:
         uses: actions/checkout@v4
       - name: test-huyni
         uses: actions/setup-node@v4
-      - run: make install
       - run: make setup
-      - run: make build
       - run: make start
       - run: make test
       - run: make lint
