@@ -1,4 +1,5 @@
 # Example app for CI Hexlet course
+[![pizda](https://github.com/TorTicc/hexlet-ci-app/actions/workflows/test.yml/badge.svg)](https://github.com/TorTicc/hexlet-ci-app/actions/workflows/test.yml)
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
 
