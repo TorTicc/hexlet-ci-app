@@ -1,1 +1,16 @@
-git@github.com:TorTicc/hexlet-ci-app.git
+name: pizda
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: test-huyni
+        uses: actions/setup-node@v4
+      - run: make install
+      - run: make setup
+      - run: make build
+      - run: make start
+      - run: make test
+      - run: make lint
